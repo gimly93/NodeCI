@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
     "setupTestFrameworkScriptFile": "./tests/setup.js"
   },
   "scripts": {
